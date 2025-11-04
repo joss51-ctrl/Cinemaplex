@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Flip */
+.perspective {
+  perspective: 1500px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Scroll */
+.scroll-style {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(174, 173, 173, 0.5) transparent;
+}
+
+
+
