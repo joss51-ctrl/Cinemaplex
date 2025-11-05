@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import tmdbApi from "../api/tmdb";
 import api from "../api/api";
-import { FaCircle, FaStar, FaUsers } from "react-icons/fa";
-import { WatchlistButton, WatchTrailerButton } from "../components/Button";
+import { FaStar, FaUsers } from "react-icons/fa";
+import { WatchTrailerButton } from "../components/Button";
 import Modal from "../components/Modal";
 
 function DetailPage() {

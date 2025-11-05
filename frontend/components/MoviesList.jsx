@@ -38,13 +38,16 @@ function MovieList(props) {
         grabCursor={true}
         spaceBetween={25}
         navigation
+        slidesOffsetBefore={50} 
+        slidesOffsetAfter={50}
         breakpoints={{
           320: { slidesPerView: 2 },
           640: { slidesPerView: 3 },
           1024: { slidesPerView: 5 },
           1440: { slidesPerView: 6 },
+          
         }}
-        
+        className="font-medium"
         style={{
           "--swiper-navigation-color": "#4300FF", 
           "--swiper-navigation-size": "32px",

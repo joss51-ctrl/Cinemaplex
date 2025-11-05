@@ -24,9 +24,9 @@ function ScrollTopButton() {
   return (
     <div>
       {isBelow && (
-        <button className="fixed bottom-[50px] right-[50px] duration-300 ease-out bg-slate-700 rounded-2xl p-3"
+        <button className="fixed bottom-[50px] right-[50px] duration-300 ease-out bg-slate-800 rounded-2xl p-3"
         onClick={scrollTop}>
-          <FaChevronUp size={32}/>
+          <FaChevronUp size={28} className="text-slate-300"/>
         </button>
       )}
     </div>
