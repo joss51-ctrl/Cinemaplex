@@ -38,8 +38,8 @@ function MovieList(props) {
         grabCursor={true}
         spaceBetween={25}
         navigation
-        slidesOffsetBefore={50} 
-        slidesOffsetAfter={50}
+        slidesOffsetBefore={10} 
+        slidesOffsetAfter={10}
         breakpoints={{
           320: { slidesPerView: 2 },
           640: { slidesPerView: 3 },
